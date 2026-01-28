@@ -5,7 +5,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { password } = body;
 
-    const adminPassword = process.env.ADMIN_PASSWORD || 'modu2024!@#';
+    const adminPassword = process.env.ADMIN_PASSWORD || 'modu2024';
 
     if (password === adminPassword) {
       return NextResponse.json({ success: true });
