@@ -55,7 +55,7 @@ export default function Footer() {
             <span><strong className="text-gray-300">사업자등록번호:</strong> 278-30-01540</span>
           </div>
           <div>
-            <strong className="text-gray-300">주소:</strong> 인천광역시 계양구 오조산로57번길 15, 7층 7106호
+            <strong className="text-gray-300">주소:</strong> 서울특별시 강남구 도곡로84길 6, B1층 25-68호
           </div>
         </div>
 
